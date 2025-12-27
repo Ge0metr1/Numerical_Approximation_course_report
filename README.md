@@ -8,22 +8,16 @@ their principles and approximation characteristics.
 ## Files
 
 - `Runge.m`  
-  Demonstrates **Runge Phenomenon** on a specific function.
-  The code illustrates the Runge phenomenon by interpolating with equally spaced nodes
-  and plotting the resulting oscillations, which is useful for understanding interpolation errors.
+  Demonstrates the **Runge Phenomenon** in polynomial interpolation.
 
 - `Spline.m`  
-  Implements **Natural Cubic Spline Interpolation**.
-  The program constructs piecewise cubic polynomials with continuous first and second derivatives,
-  and plots the spline curve, providing a smooth interpolation of given data points.
+  Implements **Natural Cubic Spline Interpolation** for discrete data approximation.
 
 - `Fitting.m`  
-  Performs **Data Fitting** using polynomial approximation.
-  Given a set of discrete data points, the program computes the fitting polynomial
-  and visualizes the approximation result, helping analyze trends in data.
+  Performs **Polynomial Data Fitting** using the least squares method.
 
 - `Bisection.m`  
-  Implements the **Bisection Method** to find the root of a nonlinear equation.
-  The program iteratively narrows the interval based on function sign changes
-  until the desired accuracy is achieved. It is suitable for continuous functions
-  with known bracketing intervals.
+  Implements the **Bisection Method** for solving  a specific nonlinear equation.
+
+- `数值逼近课程设计.pdf`
+  Short report including the theoretical background, algorithms, and numerical results.
