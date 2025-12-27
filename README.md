@@ -19,5 +19,5 @@ their principles and approximation characteristics.
 - `Bisection.m`  
   Implements the **Bisection Method** for solving  a specific nonlinear equation.
 
-- `数值逼近课程设计.pdf`
+- `数值逼近课程设计.pdf`  
   Short report including the theoretical background, algorithms, and numerical results.
